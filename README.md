@@ -1,32 +1,49 @@
 # Projeto de Estatística Aplicada
 
 ## 🧑‍💻 Autores  
-- Nome 1 (matrícula) - email  
+- Maria Eduarda Pereira de Souza Melo (202111250025) - melo.eduarda@academico.ifpb.edu.br
 - Nome 2 (matrícula) - email  
-- Nome 3 (matrícula) - email  
 
 ## 🎯 Tema e Motivação  
-Descreva em até dois parágrafos o tema que será investigado no projeto e a motivação da equipe para essa escolha.  
-Explique por que esse tema é relevante ou interessante do ponto de vista estatístico ou social.
+Nosso projeto busca explorar o desempenho dos modelos de carros autônomos utilizados em pistas simuladas por meio dos dados coletados em corridas da comunidade AWS DeepRacer. A motivação principal surgiu a partir da nossa recente participação em um desafio do AWS DeepRacer, onde tivemos contato direto com os conceitos de simulação, inteligência artificial e otimização de trajetórias.
+Percebemos que esses dados oferecem uma rica oportunidade de análise estatística, pois contêm informações sobre tempos de volta, comportamento dos modelos, características das pistas e condições das corridas. Isso nos instigou a investigar padrões e possíveis fatores que influenciam diretamente o desempenho dos agentes, permitindo uma aplicação prática da estatística em um contexto de aprendizado de máquina e robótica.
 
 ## 📊 Conjunto de Dados Selecionado  
 - **Nome do conjunto de dados:**  
-  (Exemplo: "World Happiness Report", "ENEM 2023", "IBGE - PNAD Contínua", "Kaggle - Netflix Movies", etc.)
+ AWS DeepRacer Community Race Data
+
 
 - **Fonte:**  
-  (Link ou citação da base de dados)
+ https://github.com/aws-deepracer-community/deepracer-race-data
 
 - **Descrição breve:**  
-  Explique o que representa esse conjunto de dados, qual o escopo (temporal, geográfico, etc.), quais as principais variáveis presentes e o motivo pelo qual ele foi escolhido.  
+O conjunto de dados reúne informações de corridas realizadas pela comunidade do AWS DeepRacer. Ele abrange múltiplas temporadas e pistas, com variáveis como tempo de volta, nome da pista, data da corrida, nome dos participantes, entre outras. O escopo é global e cobre diferentes momentos entre 2019 e 2023. A base é composta por arquivos CSV organizados por temporada, refletindo o desempenho de modelos de carros autônomos em simulações baseadas em reforço.
 
 - **Justificativa para a escolha:**  
-  Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
-
+Escolhemos essa base por seu potencial de gerar análises estatísticas descritivas e inferenciais interessantes, como a variação do tempo médio por pista, consistência dos participantes ao longo do tempo, e comparações entre temporadas. Além disso, é uma base com relevância prática para quem estuda inteligência artificial, controle autônomo e análise de desempenho em sistemas de simulação. O projeto também nos permite conectar conhecimentos técnicos de engenharia com métodos quantitativos.
 ---
 
 ## ❓ Perguntas ou Hipóteses  
-*Começar a planejar com perguntas de Estatística Descritiva*  
-Liste aqui as perguntas de pesquisa ou hipóteses estatísticas que o grupo pretende investigar com base nos dados.
+- Qual é o tempo médio das voltas (AvgLapTime) por pista e como ele varia entre os participantes?
+Objetivo: Identificar diferenças de desempenho médio entre participantes e pistas.
+
+- Participantes com menos colisões (CollisionCount) tendem a ter melhores tempos de volta (BestLapTime)?
+Hipótese: Existe uma correlação negativa entre número de colisões e o melhor tempo de volta.
+
+- O número médio de resets (AvgResets) influencia negativamente o ranking final (Rank)?
+Hipótese: Um maior número médio de resets está associado a posições mais baixas no ranking.
+
+- Qual é a distribuição do tempo total de corrida (TotalLapTime) e existem outliers?
+Objetivo: Explorar possíveis exceções ou desempenhos fora do padrão.
+
+- Existe uma tendência de melhoria nos tempos médios (AvgLapTime) conforme o número de submissões aumenta (SubmissionCount)?
+Hipótese: Participantes com mais submissões tendem a ter melhor desempenho médio.
+
+- Qual é a relação entre o número total de voltas (LapCount) e a posição no ranking (Rank)?
+Objetivo: Investigar se participantes que completaram mais voltas se saíram melhor.
+
+- Participantes com maior quantidade de saídas da pista (OffTrackCount) têm pior pontuação de ranking (RankingScore)?
+Hipótese: Maior quantidade de saídas da pista está relacionada a pior desempenho no ranking.
 
 ## 🔍 Metodologia  
 *A preencher na próxima etapa.*  
