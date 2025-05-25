@@ -2,7 +2,7 @@
 
 ## 🧑‍💻 Autores  
 - Maria Eduarda Pereira de Souza Melo (202111250025) - melo.eduarda@academico.ifpb.edu.br
-- Gislany Dias (matrícula) - email  
+- Gislany Dias (202111250037) - gislany.dias@academico.ifpb.edu.br
 
 ## 🎯 Tema e Motivação  
 Nosso projeto busca explorar o desempenho dos modelos de carros autônomos utilizados em pistas simuladas por meio dos dados coletados em corridas da comunidade AWS DeepRacer. A motivação principal surgiu a partir da nossa recente participação em um desafio do AWS DeepRacer, onde tivemos contato direto com os conceitos de simulação, inteligência artificial e otimização de trajetórias.
